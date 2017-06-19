@@ -1,0 +1,75 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+}
+#heads{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	color: white;
+}
+.head_text{
+	width: 80%;
+	height: 50px;
+	margin: auto;
+	text-align: center;
+	line-height: 50px;
+	float: left;
+	margin-left: 10%;
+	position: fixed;
+}
+.head_text ul li{
+	cursor: pointer;
+	width: 25%;
+	float: left;
+	list-style: none;
+}
+#content{
+	width: 80%;
+	margin: auto;
+	height: auto;
+	font-size: 16px;
+}
+.content_title{
+	margin-top: 15px;
+}
+.content_p{
+	margin-top: 15px;
+}
+#web_ul,#phone_ul,#plan_ul{
+	display: none;
+}
+#web:hover #web_ul{
+	display: block;
+}
+#phone:hover #phone_ul{
+	display: block;
+}
+#play:hover #plan_ul{
+	display: block;
+}
+
+
+
+.head_text_ul{
+	background-color: black;
+	color: white;
+	text-align: center;
+	list-style: none;
+	width: 100%;
+}
+.head_text_li{
+	font-size: 14px;
+	background-color: black;
+	color: white;
+	width: 100% !important;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.head_text_li:hover{
+	background-color: #3B3C40;
+	color: white;
+	font-size: 16px;
+}
