@@ -54,6 +54,7 @@ $(".play_li").click(function () {
 		} 
 	}
 })
+
 $("#resources").click(function () {
 	$("#content").empty();
 	var title = personal[0].title;
